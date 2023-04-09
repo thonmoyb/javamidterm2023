@@ -8,7 +8,23 @@ public class Pattern {
 		 *
 		 *
 		 */
-		
+		int num = 100;
+		int diff = 1;
+
+
+
+		while (num >= 32) {
+
+			System.out.print(num + ", ");
+			if (num == 90) {
+				diff = 2;
+			} else if (num == 70) {
+				diff = 3;
+			} else if (num == 40) {
+				diff = 4;
+			}
+			num -= diff;
+		}
 
 
 	}

@@ -1,7 +1,7 @@
 Please answer the below core-java Questions:
 
 What is programing language?
-A.
+A.an artificial language that can be used to control the behavior of a computer.
 
 
 
@@ -19,39 +19,64 @@ A.
 
 
 What are the IDEs available in the market to support java?
-A.
+A.intellij,visual studio,eclipse.
 
 
 
 Explain the entire java life cycle.
+the three main stages are editing the program, compiling the source code, and executing the byte code.
 what is class?
+class is a template used to create objects
 What is object?
+object is an instance of a java class
 What is the entry point of an application?
+the entry point is where the main method is called
 Why main is static?
+it is static so that the jvm can call it without creating an instance of the class containing the main method
 Which class is the superclass of all classes?
+the object class is the superclass of all classes
 What is difference between path and classpath variables?
+path is required to set the path environment to run the executable and classpath is required by the java compiler and jvm
 What is the difference between an Interface and Abstract class?
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
 what is Access Specifier?
+they help in managing the scope of packages,classes,methods,etc.
 What is OOP ? Define each feature of java OOP.
+oop is object oriented programming. oop concepts are inheritance,abstraction,encapsulation,and polymorphism
 What is Java Package and which package is imported by default?
+a package in java is used to group related classes.it imports java.lang by default
 What is API? Name list of API that you have used so far.
+API is application programming interface.
 Does java support multiple inheritance, explain why or why not?
+java doesnt support multiple inheritances, one reason is the complexity of it and it can lead to the "diamond problem"
 What is method overloading and when it happens?
+method overloading is when you create multiple methods of the same name in the same class and all methods work differently
 Explain exceptions in java and how to handle it.
+exceptions is when there is an error in the code and you tell the computer how to handle it. one way is the try catch method
 What is static keyword in java? How it has been used in variables and methods ?
+static keyword is a non access modifier used for methods and attributes.it is used without having to create an object of a class
 What is final and how it has been used variables and methods?
+final is used to define something that can only be assigned once. once given a value,it always contains the same value
 What is final, finally and finalize?
-What is a constructor ?
+final you cant assign new value,finalize is a method to perform cleanup, and finally is a block used to ensure that a section is always executed
+What is a constructor ? a constructor is something thats used to intialize an object
 Can we have multiple constructors in a class?
+yes we can
 If we don't have a constructor declared, what is called during the object creation?
+if there is no declaration,it uses a no argument instructor called default constructor
 What is "this" keyword in java ?
+it refers to the current object
 What is "super" keyword in java? How many possible way can you use?
+it refers to superclass parent objects to call superclass methods and superclass constructor
 What is JVM stand for ?
+java virtual machine
 Is JVM platform independent?
+yes it is
 What version of java are you using?
 What is JAR stand for ?
+java archive
 What is the difference between JDK and JVM?
+JVM is in JIT
 What is the difference between JVM and JRE?
 What is compile time and run time?
 What is heap?

@@ -39,9 +39,7 @@ public abstract class EmployeeInfo implements Employee{
 		
 	}
 
-	public EmployeeInfo() {
 
-	}
 
 	/*
 	 * This methods should calculate Employee bonus based on salary and performance.

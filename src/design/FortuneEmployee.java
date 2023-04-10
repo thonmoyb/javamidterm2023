@@ -1,6 +1,6 @@
 package design;
 
-public class FortuneEmployee {
+public class FortuneEmployee{
 
 	/**
 	 * FortuneEmployee class has a main methods where you will be able to create Object from
@@ -15,7 +15,7 @@ public class FortuneEmployee {
 	 **/
 	public static void main(String[] args) {
 		
-		EmployeeInfo fortuneEmp = new EmployeeInfo() {
+		Employee fortuneEmp = new Employee() {
 			@Override
 			public int employeeId() {
 				return 0;
@@ -38,6 +38,11 @@ public class FortuneEmployee {
 
 			@Override
 			public void benefitLayout() {
+
+			}
+
+			@Override
+			public void address() {
 
 			}
 		};

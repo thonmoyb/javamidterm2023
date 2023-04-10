@@ -23,6 +23,9 @@ public interface Employee {
 	//employee benefit
 	public void benefitLayout();
 
+	//employee address
+	public void address();
+
 }
 
 class Emp implements Employee {
@@ -48,6 +51,11 @@ class Emp implements Employee {
 
 	@Override
 	public void benefitLayout() {
+
+	}
+
+	@Override
+	public void address() {
 
 	}
 }

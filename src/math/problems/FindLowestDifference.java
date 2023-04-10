@@ -1,5 +1,7 @@
 package math.problems;
 
+import org.junit.Assert;
+
 public class FindLowestDifference {
 
     public static void main(String[] args) {
@@ -18,15 +20,19 @@ public class FindLowestDifference {
                     int diff = Math.abs(array1[i] - array2[j]);
                     if (diff < minDiff) {
                         minDiff = diff;
-                       // return minDiff;
                     }
 
                 }
             }
+
             System.out.println(minDiff);
 
-            return minDiff;
+            int expectedNum=1;
+            Assert.assertEquals(expectedNum,minDiff);
 
+
+
+            return minDiff;
         }}
 
 

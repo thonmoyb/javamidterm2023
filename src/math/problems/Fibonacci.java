@@ -1,13 +1,23 @@
 package math.problems;
 
+import org.junit.Assert;
+
+import java.util.Scanner;
+
 public class Fibonacci {
     public static void main(String[] args) {
 
         int n1=0, n2=1,sum=0;
-        System.out.print(n1+" "+n2 );
 
-        for(int i= 2;i<40;i++){
+        Scanner sc = new Scanner(System.in);
+        int fib;
+        System.out.println("how many fibonacci do you want?");
+
+        fib= sc.nextInt();
+        for(int i=2;i<fib;i++){
+
             sum=n1+n2;
+
             System.out.print(" "+sum);
             n1=n2;
             n2=sum;
@@ -17,6 +27,8 @@ public class Fibonacci {
 
 
         }
+        int expectedNum=40;
+        Assert.assertEquals(expectedNum,fib);
 
 
 

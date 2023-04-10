@@ -23,10 +23,9 @@ public class Factorial {
             }
             System.out.println(n);
 
-
-
             int expectedNum=120;
             Assert.assertEquals(expectedNum,n);
+
 
             System.out.println("Do you want another factorial?");
             System.out.println("1-yes");

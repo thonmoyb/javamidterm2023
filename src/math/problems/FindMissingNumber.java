@@ -1,5 +1,7 @@
 package math.problems;
 
+import org.junit.Assert;
+
 public class FindMissingNumber {
 
     public static void main(String[] args) {
@@ -23,6 +25,9 @@ public class FindMissingNumber {
 
             // Calculate the missing number
             int missingNumber = expectedSum - actualSum;
+
+        int expectedNum=9;
+        Assert.assertEquals(expectedNum,missingNumber);
 
             return missingNumber;
         }

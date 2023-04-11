@@ -1,5 +1,9 @@
 package string.problems;
 
+import org.bson.io.BsonOutput;
+
+import java.util.Scanner;
+
 public class Palindrome {
     public static void main(String[] args) {
         /*
@@ -7,31 +11,33 @@ public class Palindrome {
           Palindrome. So write java code to check if a given String is Palindrome or not.
          */
 
-        String str = "madam";
-        boolean result = isPalindrome(str);
-        System.out.println(str+" IsPalindrome = "+ result);
+        Scanner sc=new Scanner(System.in);
+        String original;
+        String reverse="";
 
+        System.out.println("Enter your word:");
+        original= sc.nextLine();
 
+    for(int i=original.length()-1;i>=0;i--){
+        reverse += original.charAt(i);
     }
-    private static boolean isPalindrome(String str) {
 
-        if(str==null) {
-            return false;
-        }
-        if(str.length()<=1) {
-            return true;
-        }
-        String first = str.substring(0,1);
-        String last = str.substring(str.length()-1, str.length());
-        if(!first.equals(last)) {
-            return false;
+    boolean palindrome=true;
+    for(int i=0;i<original.length();i++){
+        if(original.charAt(i) != reverse.charAt(i)){
+        palindrome=false;
+            System.out.println("not palindrome");
 
         }
-        else {
-            return isPalindrome(str.substring(1, str.length()-1));
-        }
 
-    }
-}
+
+
+    }}}
+
+
+
+
+
+
 
 

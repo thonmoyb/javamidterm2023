@@ -2,33 +2,55 @@ Please answer the below Data Structure Questions:
 
 why do we need data structure?
 A.
-
+data structures make it easy for users to access and work with the data they need
 
 What are the various operations that can be performed on different Data Structures?
+searching,sorting,insertion,deletion
 List out the areas in which data structures are applied extensively?
+they are used in graphics,simulation,numerical analysis
 what is an Array?
+a container object that holds a number of values of a single type
 what is the difference between the Array and ArrayList?
+arraylist has only object type data entries and not primitive data types
 what is LinkedList?
+a linkedlist is a dynamic data structure whose size increases as you add elements
 How is an Array different from Linked List?
+an array is grouping of data elements of equivalent data type, a linked list is a group of entities called a node
 what is queue?
+linear data structure where you can handle an ordered collection of elements
 what is stack?
 what is FIFO and LIFO?
+two techinques of maintaining data in a data structure
 what is the order of complexity?
+The most common complexity classes are (in ascending order of complexity): O(1), O(log n), O(n), O(n log n), O(n²).
 what is the best case to search an element from an array?
+linear search algorithm
 what is the worst case to search an element from an array?
+when the search item appears at the end of the list
 what is tree in data structure?
+a tree is non linear data structure where data objects are in a hierarchical relationship
 what is graph in data structure?
+mainly stores connected data
 what is the difference between the HashTable and HashMap?
+hashmap is non syncronized and not thread safe, hashtable is the opposite
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+DBMS, network data model
 How HashMap works in java?
+stores entries into multiple single linked list,called bins.
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+runtime exception in java that occurs when an array is accessed with an illegal index
 What are the different ways of copying an array into another array?
+you can use for loop and copy elements of one to another
 What is difference between an array and a linked list?
 What is DFS and BFS?
 What is Recursion?
+technique of making a function call itself
 What are linear and non linear data Structures?
+in linear,the data elements connect sequentially, in non linear the data elements connect hierarchiacally
 What is Big-(O)-notation?
+describe the set of all algorithms that run no worse than a certain speed
 Outlined different kind of sorting algorithm with time complexity?
+heap sort,insertion sort,selection sort,bubble sort
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.
